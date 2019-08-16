@@ -1,0 +1,103 @@
+<html>
+<head> 
+   <title> Form Tages Examples </title>
+   <style> 
+     div{
+     	background-color:blue;
+     	font-family:"Comic San MS" , sans-serif;
+     	padding:10px;
+     	margin:5px;
+     	width:400px;
+     }
+   </style>
+
+</head>
+<body> 
+ 
+ <div> 
+      <Form>  
+         <table> 
+              <tr> 
+                <td> 
+                   <label for ="UserName"> UserName </label>   
+                </td> 
+                <td> 
+                  <input type="text" id="UserName">
+                </td>
+              </tr> 
+
+              <tr> 
+                <td> 
+                   <label for ="Password"> Password </label>   
+                </td> 
+                <td> 
+                  <input type="Password" id="Password">
+                </td>
+              </tr> 
+              <tr> 
+                <td>
+                    <input type="submit" value ="submit" >
+                <td>
+              </tr> 
+         </table> 
+       
+      </Form>
+ </div>
+<br/>
+ <div> 
+    <Form> 
+        <label> Select Your Course </label> 
+        <Select> 
+         <option>-select option-</option>
+         <option>HTML</option>
+         <option>CSS</option>
+         <option>JAVASCRIPT</option>
+         <option>JQUERY</option>
+         <option>BOOSTRUP</option>
+         <option>ANGULAR</option>
+        </Select>
+    </Form> 
+ </div>
+ <div>
+     <Form>
+       <label> Select Gender </label> <br/>
+       <label>Female</label>
+       <input type="radio" id="female" >
+       <label> Male </label>
+       <input type="radio" id="Male">
+     </Form>
+
+ </div><br/>
+
+ <div> 
+   <Form> 
+      <label>Highest Qualification </label> 
+      <input list="Qualification" name="education" >
+      <datalist id="Qualification"> 
+      	<option value="BSc">
+      	<option value="Bcom">
+      	<option value="BA">
+      	<option value="MSc">
+      	<option value="Btech">
+      	<option value="MCA">
+      	<option value="MBA">
+
+      </datalist>
+   </Form>
+
+ </div><br/> 
+ <div> 
+  <Form> 
+     <label> leave Your Comment </label> 
+     <textarea rows="5" cols="30"></textarea>
+  </Form> 
+
+ </div>
+ <div>
+ 	<Form>
+ 		<input type="submit" value="Aply">
+ 	</Form>
+ </div>
+
+</body>
+</html>
