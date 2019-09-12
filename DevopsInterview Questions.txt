@@ -1,0 +1,38 @@
+1.Current roles & responsibilities?
+2. What is Docker compose?
+3. What is Docker server version?
+4. What are the advantages of Docker?
+5. How do you setup Docker in Jenkins in production environment?
+6. How do create Docker image from Docker file?
+7. How do you deploy the Docker image generated in the testing environment to
+production environment in Jenkins
+What are the types of Docker networks?
+8. How do you define network in the Docker compose file?
+9. What are the basic parameters required in the Docker compose file?
+10. What is Docker interlock?
+11. What is overlay networking?
+12. How to communicate between 2 containers present in separate network?
+13. How to store the data present in the Docker container in the AWS?
+14.Tomcat Heap size/memory issue resolving?
+15. What are the fields in resolving above issue?
+Explain about your Jenkins work flow?
+16. How you are creating/launching EC2 instances?
+17. What are IAM roles?
+18 Difference between IAM Roles & Policies?
+19. What is VPC?
+20. What is public subnet and pvt subnet?
+21. How we can access the servers in pvt subnet from outside world?
+22. How do you deploy Artifacts to application server using the Jenkins?
+With plug-in
+Without plug-in
+
+23.What kind of branching and merging you worked on GIT.
+
+24: What is the sdlc methodology are you following Waterfall /Agile?
+
+25: What are the environments you have?
+26. what is  ansible playbooks?
+27. what is role in ansible
+28. branching stratagy in git 
+29. git reset types?
+30. cherrypic in git ?
